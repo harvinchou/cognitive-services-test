@@ -1,0 +1,15 @@
+﻿speech01.wav	how are you
+speech02.wav	fine thank you and you
+speech03.wav	please remember me to tom
+speech04.wav	say hello to tom how do you do it's nice to meet you where are you from
+speech05.wav	we can do better i think it's time for us to leave now see you later it's very kind of you thank you all the same
+speech06.wav	happy birthday to you i'm sorry to hear that i'm sorry to have kept you waiting for a long time that's alright what time can i see you
+speech07.wav	that's a good idea can I talk to you how are you feeling today are you available on friday night to have dinner could you scan the documents and email them to me
+speech08.wav	a lack of sleep will have a detrimental effect on your health on second thought could i get an iced coffee instead of a hot coffee he needs to leave a quarter after four
+speech09.wav	my parents are coming to visit next week you are over thirty and you still don't have a credit card what a deal these shoes are only twenty dollars can you send me a reminder about the appointment
+speech10.wav	plane was delayed for more than four hours the novel epitomizes the problems of working class women in the nineteen fifties in her memoir michelle obama draws on her experiences as the first lady
+speech11.wav	i'm going to add in one teaspoon of granulated sugar as well as one eighth of a teaspoon or a quarter teaspoon of cinnamon the first lag was ten hours and the second lag was twelve hours our layover ended up being in frankfurt germany which was really exciting because i'm a big fan of kinder products and just german food in general
+speech12.wav	that's a reclining chair nice comfortable couch glass table TV with a PS four and some video games smoked salmon is quite popular cucumber and cream cheese is ever so popular as well you wanna do that new thai place again it was pretty tasty last time monday is totally doable shall we meet at the usual spot I don’t really mind getting take out it’s too hot to cook anyway
+speech13.wav	when a team of archaeologists recently came across some fifteen thousand year old human remains they made an interesting the teeth of those ancient humans were riddled with holes and as our teeth erupt they naturally begin to accumulate communities of bacteria depending on what we eat and specifically how much sugar we consume certain microbes can overpopulate and cause cavities
+speech14.wav	diets high in sugary foods cause an explosion of bacteria called mutans streptococci in our mouths like humans these microorganisms love sugar using it as a molecular building block and energy source gradually acid wears down a pathway for bacteria into the tooth's secondary layer called the dentin 
+speech15.wav	today an incredible ninety two percent of american adults have had cavities in their teeth in most toothpastes and many water supplies we use tiny amounts of fluoride gradually the population of sugar loving microbes in your mouth will decline
