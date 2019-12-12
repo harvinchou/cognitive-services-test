@@ -30,7 +30,7 @@ LOCALE = "en-US"
 #RECORDINGS_BLOB_URI = "<Your SAS Uri to the recording>"
 
 # Set subscription information when doing transcription with custom models
-ADAPTED_ACOUSTIC_ID = "fa375b5b-3d62-45fa-882e-b1dbc4394d8d"  # guid of a custom acoustic model
+ADAPTED_ACOUSTIC_ID = "81b295f2-a5e2-40ba-aece-22b58c65c0f5"  # guid of a custom acoustic model
 ADAPTED_LANGUAGE_ID = "c8fedff7-37ee-48d7-a9cf-c0cbba5a6381"  # guid of a custom language model
 
 
@@ -53,16 +53,15 @@ def transcribe(blob_uri: str):
     # dictionary in the properties parameter. See
     # https://docs.microsoft.com/azure/cognitive-services/speech-service/batch-transcription
     # for supported parameters.
-    
+    '''
     transcription_definition = cris_client.TranscriptionDefinition(
-        name=NAME, description=DESCRIPTION, locale=LOCALE, recordings_url=blob_uri, 
-        models=[cris_client.ModelIdentity(ADAPTED_ACOUSTIC_ID), cris_client.ModelIdentity(ADAPTED_LANGUAGE_ID)]
+        name=NAME, description=DESCRIPTION, locale=LOCALE, recordings_url=blob_uri
     )
-    
+    '''
 
     # Uncomment this block to use custom models for transcription.
     # Model information (ADAPTED_ACOUSTIC_ID and ADAPTED_LANGUAGE_ID) must be set above.
-    '''
+
     if ADAPTED_ACOUSTIC_ID is None or ADAPTED_LANGUAGE_ID is None:
         logging.info("Custom model ids must be set to when using custom models")
     
@@ -70,7 +69,7 @@ def transcribe(blob_uri: str):
         name=NAME, description=DESCRIPTION, locale=LOCALE, recordings_url=blob_uri,
         models=[cris_client.ModelIdentity(ADAPTED_ACOUSTIC_ID), cris_client.ModelIdentity(ADAPTED_LANGUAGE_ID)]
     )
-    '''        
+
 
     data, status, headers = transcription_api.create_transcription_with_http_info(transcription_definition)
 
